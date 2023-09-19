@@ -1,0 +1,194 @@
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tu código CSS restante */
+/* Agrega estos estilos para el título */
+.titulo {
+    width: 100%;
+    height: 100px;
+    background-color: #984CB4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kalam', 'Maven Pro', 'Poppins', cursive, sans-serif;
+    color: black;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+.titulo:hover {
+    transform: scale(1.2); /* Hace que el título se haga un 20% más grande al pasar el cursor */
+}
+
+    .uber,
+    .transfer {
+        width: 200px;
+        height: 200px; 
+        background-color: black;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        margin: 0 20px; 
+        vertical-align: top; 
+        text-align: center;
+        
+    }
+
+    .uber img,
+    .transfer img    {
+        width: 100%; 
+        height: 100%; 
+        border: 5px solid black;
+        
+   
+        
+    }
+
+    .uber:hover,
+    .transfer:hover {
+        transform: scale(1.2);
+    }
+    .uber, .transfer {
+        font-family: 'Kalam', 'Maven Pro', 'Poppins', cursive, sans-serif;
+        color: BLACK; /* Cambia el color del texto si es necesario */
+        font-size: 23px; /* Cambia el tamaño de fuente si es necesario */
+    }
+    .tortas{
+        width: 200px;
+        height: 200px; 
+        background-color: black;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        margin: 0 20px; 
+        vertical-align: top; 
+        text-align: center;
+    }
+    .uber,
+    .transfer,
+    .tortas,
+    .refrescos,
+    .corte:hover {
+        width: 200px;
+        height: 200px; 
+        background-color: black;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        margin: 0 10px; 
+        vertical-align: top; 
+        text-align: center;
+        font-family: 'Kalam', 'Maven Pro', 'Poppins', cursive, sans-serif;
+        color: black; 
+        font-size: 30px; 
+    }
+    
+    .uber img,
+    .transfer img,
+    .tortas img,
+    .refrescos img,
+    .corte {
+        width: 100%; 
+        height: 100%; 
+        border: 5px solid black;
+    }
+    
+    .uber:hover,
+    .transfer:hover,
+    .tortas:hover,
+    .refrescos:hover,
+    .corte:hover {
+        transform: scale(1.2);
+    }
+
+     body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh; /* Esto centra verticalmente en la ventana del navegador */
+        margin: 0;
+        background-color: #f0f0f0; /* Cambia el color de fondo según sea necesario */
+    }
+    
+    /* Estilos para el título */
+    .titulo {
+        width: 100%;
+        height: 100px;
+        background-color: #984CB4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Kalam', 'Maven Pro', 'Poppins', cursive, sans-serif;
+        color: black;
+        font-size: 32px;
+        margin: 0; /* Elimina cualquier margen */
+        padding: 0; /* Elimina cualquier relleno interno */
+        position: fixed; /* Fija el título en la parte superior */
+        top: 0; /* Coloca el título en la parte superior de la página */
+        left: 0; /* Alinea el título a la izquierda */
+        z-index: 999; /* Asegura que el título esté por encima de otros elementos */
+        transition: transform 0.3s ease;
+    }
+    
+    /* Estilos para los elementos */
+    .uber,
+    .transfer,
+    .tortas,
+    .refrescos,
+    .corte {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: top;
+        text-align: center;
+        font-family: 'Kalam', 'Maven Pro', 'Poppins', cursive, sans-serif;
+        color: black;
+        font-size: 30px;
+        margin-bottom: 20px; /* Espacio entre los elementos */
+    }
+    
+    /* Estilos para las imágenes en los elementos */
+    .uber img,
+    .transfer img,
+    .tortas img,
+    .refrescos img,
+    .corte img {
+        width: 100%;
+        height: 100%;
+        border: 5px solid black;
+    }
+    
+    /* Estilos de hover para los elementos */
+    .uber:hover,
+    .transfer:hover,
+    .tortas:hover,
+    .refrescos:hover,
+    .corte:hover {
+        transform: scale(1.2);
+    }
+    .titulo-hr {
+        border: 0;
+        border-top: 2px solid #000000;
+        margin: 0;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
