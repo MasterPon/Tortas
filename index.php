@@ -24,19 +24,19 @@
         <img src="../TORTAS/imagenes/uber.png" alt="PEDIDO UBER">
         UBER
     </div></a>
-    <a href="transferencias.php  ">
+    <a href="transferencias.php  " >
     <div class="transfer" id="transfer">
         <img src="../TORTAS/imagenes/transferencia.png" alt="TRANSFERENCIA">
         TRANSFERENCIA
     </div></a>
-    <a href="index.php">
+    <a href="Tortas.php">
         <div class="tortas" id="tortas">
 <img src="../TORTAS/imagenes/tortas.jpg" alt="Tortas">
 TORTAS
 
         </div>
     </a>
-    <a href="index.php">
+    <a href="Refrescos.php">
         <div class="refrescos" id="refrescos">
        <img src="../TORTAS/imagenes//cocacola-logo.jpg" alt="Refrescos">
        REFRESCOS
@@ -45,7 +45,7 @@ TORTAS
     <a href="index.php">
         <div class="corte" id="corte">
             <img src="../TORTAS/imagenes/corte.png" alt="Corte de caja">
-            CORTE
+            CORTE   
         </div>
     </a></center>
 </body>

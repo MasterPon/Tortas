@@ -1,0 +1,33 @@
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector para quitar el subrayado del enlace */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilos para el título */
+.titulo {
+    width: 100%;
+    height: 100px;
+    background-color: #984CB4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kalam', 'Maven Pro', 'Poppins', cursive, sans-serif;
+    color: black;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+    transition: transform 0.3s ease;
+}
+
+.titulo:hover {
+    transform: scale(1.2); /* Hace que el título se haga un 20% más grande al pasar el cursor */
+}

@@ -10,15 +10,18 @@
     <title>Super Tortas</title>
 </head>
 <body>
-    <div class="titulo" id="titulo">
-        <h1>SUPER TORTAS</h1>
-        <hr class="titulo-hr">
-    </div>
+    <a href="index.php" class="a">
+        <div class="titulo" id="titulo">
+            <h1>SUPER TORTAS</h1>
+            <hr class="titulo-hr">
+        </div>
+    </a>
     <div class="contenido">
         <p>Ingrese la cantidad de transferencia: <input type="number" class="entrada"></p>
         <p>Ingrese el número de tortas: <input type="text" class="entrada"></p>
         <form>
-            <label for="comentarios">Comentarios:</label>
+            Comentarios: <br>
+            <label for="comentarios"></label>
             <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
         </form>
         <div class="botones">
