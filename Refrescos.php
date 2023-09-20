@@ -24,6 +24,11 @@
         <div class="imagen">
             <img src="imagen2.jpg" alt="Imagen 2">
         </div>
+         <div class="botones">
+            <input type="submit" name="enviar" value="Enviar" class="boton" id="boton">
+            <input type="submit" name="Consulta" value="Consulta" class="boton">
+            <input type="submit" name="Editar" value="Editar" class="boton">
+        </div>
     </div>
     
 </body>
