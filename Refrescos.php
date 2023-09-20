@@ -16,3 +16,15 @@
             <hr class="titulo-hr">
         </div>
     </a>
+    
+    <div class="contenido">
+        <div class="imagen">
+            <img src="../TORTAS/imagenes/cocacola.jpg" alt="Imagen 1">
+        </div>
+        <div class="imagen">
+            <img src="imagen2.jpg" alt="Imagen 2">
+        </div>
+    </div>
+    
+</body>
+</html>

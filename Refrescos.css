@@ -31,3 +31,17 @@ a {
 .titulo:hover {
     transform: scale(1.2); /* Hace que el título se haga un 20% más grande al pasar el cursor */
 }
+/* Estilos para los cuadros de imagen */
+.imagen {
+    width: 200px; /* Ancho de los cuadros de imagen */
+    height: 200px; /* Altura de los cuadros de imagen */
+    margin: 20px; /* Espacio entre los cuadros de imagen */
+    display: inline-block; /* Para que estén uno al lado del otro */
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+/* Estilos para las imágenes dentro de los cuadros */
+.imagen img {
+    max-width: 100%; /* Asegura que las imágenes no se desborden */
+    max-height: 100%; /* Asegura que las imágenes no se desborden */
+}
