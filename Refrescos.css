@@ -3,17 +3,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}   
+
+/* Estilos generales */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0; /* Elimina el margen en todos los lados */
+    padding-left: 20px; /* Agrega un margen izquierdo */
+    background-color: #f0f0f0;
+    max-width: 100%; /* Ajusta el ancho máximo del contenido */
 }
 
-/* Selector para quitar el subrayado del enlace */
-a {
+.a {
     text-decoration: none;
     color: black;
+    
 }
 
 /* Estilos para el título */
 .titulo {
-    width: 100%;
+    width: 1830px;
     height: 100px;
     background-color: #984CB4;
     display: flex;
@@ -22,26 +35,135 @@ a {
     font-family: 'Kalam', 'Maven Pro', 'Poppins', cursive, sans-serif;
     color: black;
     font-size: 32px;
-    margin: 0;
-    padding: 0;
-    z-index: 999;
     transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    margin-top: -109px;
+    z-index: 999;
+    border: black 2px;
+  
 }
 
-.titulo:hover {
-    transform: scale(1.2); /* Hace que el título se haga un 20% más grande al pasar el cursor */
-}
-/* Estilos para los cuadros de imagen */
-.imagen {
-    width: 200px; /* Ancho de los cuadros de imagen */
-    height: 200px; /* Altura de los cuadros de imagen */
-    margin: 20px; /* Espacio entre los cuadros de imagen */
-    display: inline-block; /* Para que estén uno al lado del otro */
-    text-align: center; /* Centrar el contenido horizontalmente */
+/* Estilos para los contenedores de imagen */
+.imagen-table {
+    display: inline-block; /* Para que los contenedores se ajusten al tamaño de la imagen */
+    background-color: white;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    margin: 20px; /* Espacio entre los contenedores */
 }
 
-/* Estilos para las imágenes dentro de los cuadros */
-.imagen img {
+/* Estilos para las imágenes dentro de los contenedores */
+.imagen-table img {
     max-width: 100%; /* Asegura que las imágenes no se desborden */
     max-height: 100%; /* Asegura que las imágenes no se desborden */
+    border: 2px solid black;
+}
+
+/* Estilos para las imágenes en la tabla */
+.imagen-table {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.imagen-table img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.imagen-table:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos para los textos debajo de las imágenes */
+.imagen-table p {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: 'Kalam', 'Maven Pro', 'Poppins', cursive, sans-serif;
+    border-color: black;
+}
+
+/* Estilos específicos para algunas imágenes */
+.imagent, .gaucha {
+    margin-left: 50px;
+}
+
+.imagent img, .gaucha img {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: transform 0.3s ease;
+    border-radius: 10%;
+}
+
+.imagent img:hover, .gaucha img:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos para el elemento con clase "qp" */
+.qp {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    margin-top: 10%;
+}
+
+.qp:hover {
+    width: 100%;
+    height: 100%;
+    border: 5px solid black;
+}
+
+/* Estilos para el texto centrado en la parte superior */
+.agregar {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Kalam', 'Maven Pro', 'Poppins', cursive, sans-serif;
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+/* Espacio entre las celdas de la tabla */
+table {
+    font-family: 'Kalam', 'Maven Pro', 'Poppins', cursive, sans-serif;
+    border-collapse: separate;
+    border-spacing: 20px; /* Ajusta el valor para obtener el espacio deseado */
+    border-radius: 10px; /* Agrega bordes redondeados a la tabla */
+    width: 90%; /* Ajusta el ancho de la tabla */
+    right: 100px;
+   margin-left: 0px;
+   margin: 0 auto; /* Centra la tabla horizontalmente en el contenedor */
+}
+/* Estilos para los botones */
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; /* Añade margen superior entre los botones */
+}
+
+.boton {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px 0; /* Espacio entre los botones */
+    background-color: #984CB4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #7A3D91;
 }
